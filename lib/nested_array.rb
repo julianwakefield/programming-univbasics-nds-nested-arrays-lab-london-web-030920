@@ -31,12 +31,12 @@ def assembled_matrix
     "Asparagus"]
     ]
 
-    sorted_matrix = [
+    assembled_matrix = [
     CONVENTIONAL_PRODUCE.sort,
     ORGANIC_PRODUCE.sort,
       ]
 
-return sorted_matrix
+return assembled_matrix
 
 end
 
