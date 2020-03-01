@@ -17,24 +17,21 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  #assembled_matrix = [[
-  #  "Grapefruit",
-  #  "Pineapple",
-  #  "Oranges",
-  #  "Watermelon",
-  #  "Eggplant"
-#  ],[
-#    "Strawberries",
-#    "Potatoes",
-#    "Grapes",
-  #  "Avocadoes",
-  #  "Asparagus"]
-#    ]
+  assembled_matrix = [[
+   "Grapefruit",
+   "Pineapple",
+   "Oranges",
+   "Watermelon",
+   "Eggplant"
+ ],[
+ "Strawberries",
+ "Potatoes",
+   "Grapes",
+   "Avocadoes",
+   "Asparagus"]
+    ]
 
-    assembled_matrix = [
-    CONVENTIONAL_PRODUCE.sort!,
-    ORGANIC_PRODUCE.sort!,
-      ]
+    
 
 return assembled_matrix
 
@@ -47,6 +44,11 @@ end
 
 
 def sorted_matrix
+
+  assembled_matrix = [
+  CONVENTIONAL_PRODUCE.sort,
+  ORGANIC_PRODUCE.sort,
+    ]
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
