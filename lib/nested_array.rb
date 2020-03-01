@@ -60,7 +60,9 @@ matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
+new_value = []
 
+matrix[row][column]
 end
 
 
