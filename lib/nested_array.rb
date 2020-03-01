@@ -32,11 +32,11 @@ def assembled_matrix
     ]
 
     sorted_matrix = [
-    CONVENTIONAL_PRODUCE.sort!,
-    ORGANIC_PRODUCE.sort!,
+    CONVENTIONAL_PRODUCE.sort,
+    ORGANIC_PRODUCE.sort,
       ]
 
-  sorted_matrix
+return sorted_matrix
 
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
