@@ -30,7 +30,7 @@ def assembled_matrix
     "Avocadoes",
     "Asparagus"]
     ]
-  ]
+  
 ]
   produce_one[0] = CONVENTIONAL_PRODUCE.sort!
   produce_two[1] = ORGANIC_PRODUCE.sort!
