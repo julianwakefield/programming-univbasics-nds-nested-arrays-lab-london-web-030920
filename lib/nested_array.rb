@@ -35,7 +35,7 @@ def assembled_matrix
     CONVENTIONAL_PRODUCE.sort,
     ORGANIC_PRODUCE.sort,
       ]
-
+]
 return sorted_matrix
 
   # Build an array that contains both of the above arrays
