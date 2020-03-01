@@ -38,11 +38,13 @@ def assembled_matrix
 
 return sorted_matrix
 
+end
+
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
-end
+
 
 def sorted_matrix
   # Using Array literal syntax only, build another nested array that
