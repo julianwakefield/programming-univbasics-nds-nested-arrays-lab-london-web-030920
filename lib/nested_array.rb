@@ -37,8 +37,6 @@ def assembled_matrix
 
   sorted_matrix = [[produce_one], [produce_two]]
 
-end
-end
 sorted_matrix
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
