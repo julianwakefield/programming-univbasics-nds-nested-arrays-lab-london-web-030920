@@ -32,8 +32,8 @@ def assembled_matrix
     ]
 
 
-  produce_one[0] = CONVENTIONAL_PRODUCE.sort!
-  produce_two[1] = ORGANIC_PRODUCE.sort!
+  produce[0] = CONVENTIONAL_PRODUCE.sort!
+  produce[1] = ORGANIC_PRODUCE.sort!
 
   sorted_matrix = [produce_one, produce_two]
 
