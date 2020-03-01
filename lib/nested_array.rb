@@ -31,16 +31,12 @@ def assembled_matrix
     "Asparagus"]
     ]
 
-
-    conventional_produce = CONVENTIONAL_PRODUCE.sort!
-    organic_produce = ORGANIC_PRODUCE.sort!
-
-  sorted_matrix = [
-    conventional_produce,
-    organic_produce,
+    sorted_matrix = [
+    CONVENTIONAL_PRODUCE.sort!,
+    ORGANIC_PRODUCE.sort!,
       ]
 
-      sorted_matrix
+  sorted_matrix
 
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
