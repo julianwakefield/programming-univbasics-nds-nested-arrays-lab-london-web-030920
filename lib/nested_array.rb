@@ -23,9 +23,10 @@ def assembled_matrix
    "Oranges",
    "Watermelon",
    "Eggplant"
- ],[
- "Strawberries",
- "Potatoes",
+ ],
+ [
+   "Strawberries",
+   "Potatoes",
    "Grapes",
    "Avocadoes",
    "Asparagus"]
@@ -33,7 +34,7 @@ def assembled_matrix
 
 
 
-return assembled_matrix
+assembled_matrix
 
 end
 
