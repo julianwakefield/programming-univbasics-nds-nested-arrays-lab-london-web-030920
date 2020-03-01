@@ -31,7 +31,7 @@ def assembled_matrix
    "Avocadoes",
    "Asparagus"]
     ]
-]
+
 
 
 assembled_matrix
