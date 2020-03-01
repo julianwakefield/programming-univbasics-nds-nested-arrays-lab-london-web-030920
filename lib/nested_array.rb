@@ -32,8 +32,6 @@ def assembled_matrix
    "Asparagus"]
     ]
 
-
-
 assembled_matrix
 
 end
@@ -62,7 +60,7 @@ matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
-
+matrix[new_value]
 end
 
 
