@@ -35,7 +35,7 @@ def assembled_matrix
   produce_one[0] = CONVENTIONAL_PRODUCE.sort!
   produce_two[1] = ORGANIC_PRODUCE.sort!
 
-  sorted_matrix = [[produce_one], [produce_two]]
+  sorted_matrix = [produce_one, produce_two]
 
 sorted_matrix
   # Build an array that contains both of the above arrays
