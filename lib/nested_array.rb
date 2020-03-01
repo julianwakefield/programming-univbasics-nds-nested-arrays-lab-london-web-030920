@@ -32,8 +32,8 @@ def assembled_matrix
     ]
 
     sorted_matrix = [
-    CONVENTIONAL_PRODUCE.reverse,
-    ORGANIC_PRODUCE.reverse,
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE,
       ]
 
   sorted_matrix
