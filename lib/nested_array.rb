@@ -32,12 +32,12 @@ def assembled_matrix
     ]
 
 
-    CONVENTIONAL_PRODUCE = CONVENTIONAL_PRODUCE.sort!
-    ORGANIC_PRODUCE = ORGANIC_PRODUCE.sort!
+    conventional_produce = CONVENTIONAL_PRODUCE.sort!
+    organic_produce = ORGANIC_PRODUCE.sort!
 
   sorted_matrix = [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE,
+    conventional_produce,
+    organic_produce,
       ]
 
       sorted_matrix
