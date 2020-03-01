@@ -32,10 +32,13 @@ def assembled_matrix
     ]
 
 
-proc[0] = CONVENTIONAL_PRODUCE.sort!
-  proc[1] = ORGANIC_PRODUCE.sort!
+    CONVENTIONAL_PRODUCE = CONVENTIONAL_PRODUCE.sort!
+    ORGANIC_PRODUCE = ORGANIC_PRODUCE.sort!
 
-  sorted_matrix = [proc[0], produce[1]]
+  sorted_matrix = [
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE,
+      ]
 
 sorted_matrix
   # Build an array that contains both of the above arrays
