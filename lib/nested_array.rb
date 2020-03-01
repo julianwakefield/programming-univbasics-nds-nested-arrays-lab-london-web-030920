@@ -36,7 +36,9 @@ def assembled_matrix
   produce_two = ORGANIC_PRODUCE.sort!
 
   sorted_matrix = [[produce_one], [produce_two]]
-  sorted_matrix
+
+end
+sorted_matrix
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
